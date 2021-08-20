@@ -1833,6 +1833,26 @@ input, select, textarea {
 		text-align: center;
 	}
 
+section ul {
+	display: flex;
+	margin-bottom: 20px;
+	padding-left: 0; 
+}
+
+section ul li {
+	list-style: none;
+	background: #eee;
+	margin: 5px;
+	padding: 8px 20px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+section ul li.active {
+	background: #03a9f4;
+	color: #fff;
+}
+
 homepage text {
 	color: white;
 }
@@ -2650,6 +2670,7 @@ homepage text {
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+				object-fit: cover;
 			}
 
 				.tiles article > .image img {
