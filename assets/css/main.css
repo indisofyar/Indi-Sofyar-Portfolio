@@ -36,7 +36,18 @@ footer, header, hgroup, menu, nav, section {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+	z-index: -2;
+}
+
+#videocover{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -1;
+	background-color: black;
+	opacity: 0.4;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -2412,6 +2423,9 @@ homepage text {
 
 /* Table */
 
+.section1{
+	height: 700px;
+}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
